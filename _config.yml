@@ -1,0 +1,92 @@
+---
+booktitle: Proceedings of the Third International Conference on Automated Machine
+  Learning
+shortname: AutoML
+year: '2024'
+volume: '256'
+start: &1 2024-09-09
+end: 2024-09-12
+published: 2024-10-09
+conference_number: '3'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: automl_2024
+month: 0
+cycles: false
+bibtex_editor: Eggensperger, Katharina and Garnett, Roman and Vanschoren, Joaquin
+  and Lindauer, Marius and Gardner, Jacob R.
+editor:
+- given: Katharina
+  family: Eggensperger
+- given: Roman
+  family: Garnett
+- given: Joaquin
+  family: Vanschoren
+- given: Marius
+  family: Lindauer
+- given: Jacob R.
+  family: Gardner
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Third International Conference on Automated Machine Learning
+    Held in Sorbonne Universit{\'e}, Paris, France on 09-12 September 2024
+
+  Published as Volume 256 by the Proceedings of Machine Learning Research on 09 October 2024.
+
+  Volume Edited by:
+    Katharina Eggensperger
+    Roman Garnett
+    Joaquin Vanschoren
+    Marius Lindauer
+    Jacob R. Gardner
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: '09--12 Sep'
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v256"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v256
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v256
+email: ''
+conference:
+  name: International Conference on Automated Machine Learning
+  url: https://2024.automl.cc/
+  location: Sorbonne Université, Paris, France
+  dates:
+  - *1
+  - 2024-09-10
+  - 2024-09-11
+  - 2024-09-12
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v256/automl2024.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v256/automl2024.bib
